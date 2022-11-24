@@ -52,6 +52,7 @@ requires = [
     'six>=1.12.0',
     # aiohttp is the extra dependency that contains requests lib.
     'google-auth[aiohttp]>=2.5.0',
+    'setuptools',
 ]
 
 CURDIR = os.path.abspath(os.path.dirname(__file__))
